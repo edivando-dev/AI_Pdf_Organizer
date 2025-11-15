@@ -6,7 +6,7 @@ import fitz
 import json
 from datetime import datetime
 from dotenv import load_dotenv
-from google import genai
+import google.generativeai as genai
 
 load_dotenv()
 
